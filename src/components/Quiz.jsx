@@ -50,7 +50,7 @@ export default function Quiz({ quizNum, disableShowQuiz }) {
       animate={{ scale: 1, opacity: 1 }}
       transition={{ type: "spring", stiffness: 200, exit: { duration: 3 } }}
       exit={{ opacity: 0 }}
-      className="absolute flex items-center justify-center flex-col bottom-[62px] right-[91px]"
+      className="absolute flex items-center justify-center flex-col w-[375px] bottom-[62px]"
     >
       <div className="flex absolute bg-black opacity-75 w-[375px] h-[265px]"></div>
       <div className="z-[0]">

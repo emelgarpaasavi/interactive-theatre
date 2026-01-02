@@ -241,7 +241,7 @@ export default function Sequence() {
               </div>
             </div>
 
-            <div className="bg-white flex mt-[50px] w-[450px] h-[200px]">
+            <div className="bg-white flex mt-[50px] w-[400px] h-[200px]">
               <>
                 <div>
                   <AnimatePresence mode="wait">
