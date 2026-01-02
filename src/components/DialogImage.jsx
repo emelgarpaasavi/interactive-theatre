@@ -24,10 +24,10 @@ export default function DialogImage({ img, actor }) {
         src={img}
         initial={{ opacity: 0 }}
         animate={showDialogImageControl}
-        className="w-[150px] h-[150px]"
+        className="w-[100px] h-[120px]"
         alt={actor}
       />
-      <h1>{actor}</h1>
+      <h2>{actor}</h2>
     </>
   );
 }
